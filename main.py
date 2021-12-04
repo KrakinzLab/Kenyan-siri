@@ -31,7 +31,7 @@ def take_command():
     return command
 
 
-def run_alexa():
+def kenyan_siri():
     command = take_command()
     print(command)
     if 'play' in command:
@@ -57,4 +57,4 @@ def run_alexa():
 
 
 while True:
-    run_alexa()
+    kenyan_siri()
